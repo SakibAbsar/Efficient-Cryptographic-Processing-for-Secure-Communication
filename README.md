@@ -5,12 +5,15 @@ This project focuses on a high-performance hardware architecture for modular ari
 Modular Arithmetic: Efficient implementations of modular addition, subtraction, and multiplication.
 Group Operations: Hardware implementations for point addition and point doubling in Jacobian coordinates.
 FPGA Implementation: Designed for Xilinx Virtex-7 FPGA using VHDL, optimized for speed and resource utilization.
+
 #Getting Started
 Clone the repository.
 Open the VHDL files in Xilinx ISE or a compatible FPGA development tool.
 Synthesize and implement the design on the target FPGA platform.
+
 #Prerequisites
 Xilinx ISE 14.7 or newer
 Virtex-7 FPGA board
+
 #Usage
 This project includes VHDL files for each modular arithmetic and group operation module. Integrate these modules into your ECC processor design as needed for cryptographic applications.
